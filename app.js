@@ -3,8 +3,8 @@ const cheerio = require('cheerio');
 const { Client, GatewayIntentBits, EmbedBuilder, ActivityType } = require('discord.js');
 
 // Replace with your bot token and channel ID
-const TOKEN = 'ODUzMjQ2ODMwNTE4NTk5Njgw.GWiAIM.Xcxg4hm5lH89Q0LXPVEHonL_llVd_WmlJRuFoI';
-const CHANNEL_ID = '1289159750604554243'; // Channel ID for "partpicker"
+const TOKEN = '';
+const CHANNEL_ID = ''; // Channel ID for "partpicker"
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 // Function to fetch product data from the provided URL
